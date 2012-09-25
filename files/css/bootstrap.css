@@ -5772,3 +5772,5 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+
+div.clear { clear: both; }
