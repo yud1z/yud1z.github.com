@@ -6,7 +6,17 @@
 
     <title>Yud1z Repository page</title>
 
-    <link rel='stylesheet' href='files/css/bootstrap.css' type='text/css' media='screen, projection'>
+    <link rel='stylesheet' href='/files/css/bootstrap.css' type='text/css' media='screen, projection'>
+    <link rel='stylesheet' href='/files/css/nivo-slider.css' type='text/css' media='screen, projection'>
+    <link rel="stylesheet" href="/files/themes/light/light.css" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="/files/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/files/js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 
 
   </head>
@@ -75,8 +85,17 @@
       </div>
 
 
-      <div id="content">
 
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="/files/images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                <a href="http://dev7studios.com" class="thumbnail"><img src="/files/images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="/files/images/walle.jpg" data-thumb="/files/images/walle.jpg" alt="" />
+                <img src="/files/images/nemo.jpg" data-thumb="/files/images/nemo.jpg" alt="" title="#htmlcaption" />
+            </div>
+        </div>
+
+        <div id="content">
         <div class="span3">
           tes
         </div>
